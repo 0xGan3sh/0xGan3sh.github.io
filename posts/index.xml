@@ -1,0 +1,73 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on 0xGan3sh Blog</title>
+        <link>https://0xgan3sh.github.io/posts/</link>
+        <description>Recent content in Posts on 0xGan3sh Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Mon, 22 Jan 2024 23:09:30 +0530</lastBuildDate>
+        <atom:link href="https://0xgan3sh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My EJPTv2 Experience</title>
+            <link>https://0xgan3sh.github.io/posts/ejptv2/</link>
+            <pubDate>Mon, 22 Jan 2024 23:09:30 +0530</pubDate>
+            
+            <guid>https://0xgan3sh.github.io/posts/ejptv2/</guid>
+            <description>I recently passed the eJPTv2 exam, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by eLearnSecurity. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.
+The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting.</description>
+            <content type="html"><![CDATA[<p>I recently passed the <strong>eJPTv2 exam</strong>, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by <strong>eLearnSecurity</strong>. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.</p>
+<p>The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting.</p>
+<h2 id="ine-training-material">INE Training Material.</h2>
+<p>The training material for the eJPT is provided by INE in their <strong>Penetration Testing Student Learning Path</strong>. You should focus on the “skills needed to pass part”.</p>
+<ul>
+<li><strong>Deep understanding</strong> of networking concepts</li>
+<li>Simple manual <strong>web application security assessment and exploitation</strong></li>
+<li><strong>Basic vulnerability assessment</strong> of networks</li>
+<li>Using <strong>Metasploit</strong> for performing simple attacks</li>
+<li><strong>Web application manual exploitation</strong> through attack vectors</li>
+<li>Understanding of information gathering techniques</li>
+<li>Understanding of the penetration testing process</li>
+<li><strong>Pivoting</strong> to other internal networks</li>
+</ul>
+<h1 id="about-exam"><strong>About Exam.</strong></h1>
+<p>The eJPT (eLearnSecurity Junior Penetration Tester) exam is a 100% hands-on, practical exam that tests your knowledge and skills in penetration testing. The exam consists of 35 multiple-choice questions, which are divided into four sections:</p>
+<ul>
+<li><strong>Host &amp; Network Auditing:</strong> [ Enumerate system information, Enumerate network information, Enumerate system information, Gather user account information ]</li>
+<li><strong>Assessment Methodologies:</strong> [ Identify vulnerabilities, Identify operating system, Gather technical information ]</li>
+<li><strong>Host &amp; Network Pentesting:</strong> [ Identify and modify exploits, Conduct brute-force password attacks, Conduct exploitation with metasploit ]</li>
+<li><strong>Web Application Pentesting:</strong> [ Conduct webapp reconnaissance, Conduct brute-force login attack, Locate hidden file and directories, Identify vulnerabilities in webapps ]</li>
+</ul>
+<p>The exam is open book, so you are allowed to use any resources you want during the exam.</p>
+<h1 id="tips"><strong>Tips.</strong></h1>
+<ul>
+<li>Study for at least 3 months. The eJPTv2 exam covers a lot of material, so it’s important to give yourself time to study. I used a combination of INE training, practice labs, and TryHackMe to prepare for exams.</li>
+<li>Get hands-on experience. In addition to studying, it’s also important to get hands-on experience with cybersecurity tools and techniques. I did this by doing practice on INE practice labs and TryHackMe.</li>
+<li>Take good notes.</li>
+<li>Understanding everything written in the “<strong>final Letter of Engagement</strong>”.</li>
+</ul>
+<p><strong>Tryhackme</strong> free rooms to practice:</p>
+<ul>
+<li><a href="https://tryhackme.com/room/basicpentestingjt">Basic Pentesting</a></li>
+<li><a href="https://tryhackme.com/room/rrootme">RootMe</a></li>
+<li><a href="https://tryhackme.com/room/easyctf">Simple CTF</a></li>
+<li><a href="https://tryhackme.com/room/ignite">Ignite</a></li>
+<li><a href="https://tryhackme.com/room/startup">Startup</a></li>
+<li><a href="https://tryhackme.com/room/blog">Blog</a></li>
+</ul>
+<h1 id="tricks"><strong>Tricks.</strong></h1>
+<p>Here are some of my own tricks.</p>
+<ul>
+<li>Have your own checklist.</li>
+<li><strong>Use the exclusion method</strong> for Multi-choice questions. You know there’s only one right answer, so the other three must be wrong.</li>
+<li>If you’re stuck, <strong>try all the tools that you haven learned in the lab.</strong></li>
+<li>Go through all the questions beforehand. That way when you go through the exam you will know what you are looking for and can progress naturally while making sure that you get the info you need</li>
+</ul>
+<h1 id="conclusion"><strong>Conclusion.</strong></h1>
+<p>I believe that anyone can pass the eJPTv2 exam if they are willing to put in the hard work and dedication. With proper preparation, you can achieve your goal of becoming an eJPT certified cybersecurity professional.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

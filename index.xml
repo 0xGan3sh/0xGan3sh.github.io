@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0xGan3sh Blog</title>
+    <link>https://0xgan3sh.github.io/</link>
+    <description>Recent content on 0xGan3sh Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 22 Jan 2024 23:09:30 +0530</lastBuildDate>
+    <atom:link href="https://0xgan3sh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My EJPTv2 Experience</title>
+      <link>https://0xgan3sh.github.io/posts/ejptv2/</link>
+      <pubDate>Mon, 22 Jan 2024 23:09:30 +0530</pubDate>
+      <guid>https://0xgan3sh.github.io/posts/ejptv2/</guid>
+      <description>I recently passed the eJPTv2 exam, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by eLearnSecurity. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.&#xA;The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://0xgan3sh.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://0xgan3sh.github.io/about/</guid>
+      <description>Ganeshkumar I’m Ganeshkumar. I retain the eJPTv2 certification.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="I recently passed the eJPTv2 exam, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by eLearnSecurity. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.
+The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting." />
+<meta name="keywords" content=", untagged" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://0xgan3sh.github.io/posts/ejptv2/" />
+
+
+    <title>
+        
+            My EJPTv2 Experience :: 0xGan3sh Blog  — A simple theme for Hugo
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.949191c1dcc9c4a887997048b240354e47152016d821198f89448496ba42e491.css" integrity="sha256-lJGRwdzJxKiHmXBIskA1TkcVIBbYIRmPiUSElrpC5JE=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="My EJPTv2 Experience">
+<meta itemprop="description" content="I recently passed the eJPTv2 exam, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by eLearnSecurity. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.
+The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting."><meta itemprop="datePublished" content="2024-01-22T23:09:30+05:30" />
+<meta itemprop="dateModified" content="2024-01-22T23:09:30+05:30" />
+<meta itemprop="wordCount" content="509">
+<meta itemprop="keywords" content="untagged," />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="My EJPTv2 Experience"/>
+<meta name="twitter:description" content="I recently passed the eJPTv2 exam, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by eLearnSecurity. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.
+The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting."/>
+
+
+
+    <meta property="og:title" content="My EJPTv2 Experience" />
+<meta property="og:description" content="I recently passed the eJPTv2 exam, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by eLearnSecurity. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.
+The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://0xgan3sh.github.io/posts/ejptv2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-22T23:09:30+05:30" />
+<meta property="article:modified_time" content="2024-01-22T23:09:30+05:30" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-01-22 23:09:30 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                cd Home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about">About</a></li><li><a href="/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        3 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://0xgan3sh.github.io/posts/ejptv2/">My EJPTv2 Experience</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <p>I recently passed the <strong>eJPTv2 exam</strong>, and I wanted to share my experience with you. The eJPTv2 is an entry-level penetration testing certification offered by <strong>eLearnSecurity</strong>. It covers a wide range of topics, including reconnaissance, enumeration, exploitation, and post-exploitation. The exam is challenging, but it’s also a great way to learn the fundamentals of penetration testing.</p>
+<p>The PTS course material includes networking basics, Metasploit, basics about how web applications work, BurpSuite, and penetration testing basics (information gathering, footprinting and scanning, enumeration, vulnerability assessments, web attacks, system attacks, and network attacks), and pivoting.</p>
+<h2 id="ine-training-material">INE Training Material.</h2>
+<p>The training material for the eJPT is provided by INE in their <strong>Penetration Testing Student Learning Path</strong>. You should focus on the “skills needed to pass part”.</p>
+<ul>
+<li><strong>Deep understanding</strong> of networking concepts</li>
+<li>Simple manual <strong>web application security assessment and exploitation</strong></li>
+<li><strong>Basic vulnerability assessment</strong> of networks</li>
+<li>Using <strong>Metasploit</strong> for performing simple attacks</li>
+<li><strong>Web application manual exploitation</strong> through attack vectors</li>
+<li>Understanding of information gathering techniques</li>
+<li>Understanding of the penetration testing process</li>
+<li><strong>Pivoting</strong> to other internal networks</li>
+</ul>
+<h1 id="about-exam"><strong>About Exam.</strong></h1>
+<p>The eJPT (eLearnSecurity Junior Penetration Tester) exam is a 100% hands-on, practical exam that tests your knowledge and skills in penetration testing. The exam consists of 35 multiple-choice questions, which are divided into four sections:</p>
+<ul>
+<li><strong>Host &amp; Network Auditing:</strong> [ Enumerate system information, Enumerate network information, Enumerate system information, Gather user account information ]</li>
+<li><strong>Assessment Methodologies:</strong> [ Identify vulnerabilities, Identify operating system, Gather technical information ]</li>
+<li><strong>Host &amp; Network Pentesting:</strong> [ Identify and modify exploits, Conduct brute-force password attacks, Conduct exploitation with metasploit ]</li>
+<li><strong>Web Application Pentesting:</strong> [ Conduct webapp reconnaissance, Conduct brute-force login attack, Locate hidden file and directories, Identify vulnerabilities in webapps ]</li>
+</ul>
+<p>The exam is open book, so you are allowed to use any resources you want during the exam.</p>
+<h1 id="tips"><strong>Tips.</strong></h1>
+<ul>
+<li>Study for at least 3 months. The eJPTv2 exam covers a lot of material, so it’s important to give yourself time to study. I used a combination of INE training, practice labs, and TryHackMe to prepare for exams.</li>
+<li>Get hands-on experience. In addition to studying, it’s also important to get hands-on experience with cybersecurity tools and techniques. I did this by doing practice on INE practice labs and TryHackMe.</li>
+<li>Take good notes.</li>
+<li>Understanding everything written in the “<strong>final Letter of Engagement</strong>”.</li>
+</ul>
+<p><strong>Tryhackme</strong> free rooms to practice:</p>
+<ul>
+<li><a href="https://tryhackme.com/room/basicpentestingjt">Basic Pentesting</a></li>
+<li><a href="https://tryhackme.com/room/rrootme">RootMe</a></li>
+<li><a href="https://tryhackme.com/room/easyctf">Simple CTF</a></li>
+<li><a href="https://tryhackme.com/room/ignite">Ignite</a></li>
+<li><a href="https://tryhackme.com/room/startup">Startup</a></li>
+<li><a href="https://tryhackme.com/room/blog">Blog</a></li>
+</ul>
+<h1 id="tricks"><strong>Tricks.</strong></h1>
+<p>Here are some of my own tricks.</p>
+<ul>
+<li>Have your own checklist.</li>
+<li><strong>Use the exclusion method</strong> for Multi-choice questions. You know there’s only one right answer, so the other three must be wrong.</li>
+<li>If you’re stuck, <strong>try all the tools that you haven learned in the lab.</strong></li>
+<li>Go through all the questions beforehand. That way when you go through the exam you will know what you are looking for and can progress naturally while making sure that you get the info you need</li>
+</ul>
+<h1 id="conclusion"><strong>Conclusion.</strong></h1>
+<p>I believe that anyone can pass the eJPTv2 exam if they are willing to put in the hard work and dedication. With proper preparation, you can achieve your goal of becoming an eJPT certified cybersecurity professional.</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://0xgan3sh.github.io/tags/untagged/">untagged</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        509 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2024-01-22 23:09
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.46e438bd2eca7eb6358c700b40f6f56b22ab0b92503ecc11a2d8e4bcc610b8b4da83e5ea3d3e84fdb5f3c3c765744b9f5bbaf43cf5a027910be07ee39a9c12a1.js" integrity="sha512-RuQ4vS7KfrY1jHALQPb1ayKrC5JQPswRotjkvMYQuLTag&#43;XqPT6E/bXzw8dldEufW7r0PPWgJ5EL4H7jmpwSoQ=="></script>
+
+
+
+
+    </body>
+</html>
